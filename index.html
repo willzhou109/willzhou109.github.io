@@ -1,15 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-
+    <meta charset="UTF-8">
+    <title>William Zhou</title>
+    <link href="styles.css" rel="stylesheet" />   
   </head>
   <body>
-   
-<h1>Welcome to willzhou109.github.io</h1>
-<p>This is my first change</p>
-<p>This is another change</p>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#work-experience">Work Experience</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I'm William</h1>
+      <p>My name is William Zhou, and I study Computer Science at the University of Waterloo and Business Administration at Wilfrid Laurier University. I like programming and math and would like to make something groundbreaking one day. Here are some things I've made:
+</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/freeCodeCamp/full/wGqEga"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Wikipedia Viewer
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="nba.html"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://www.logodesignlove.com/images/classic/nba-logo.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            NBA Stat Tracking Website
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+      <div class="experience-section-header">
+        Places I've worked at/had experience with:
+      </div>
+      <div class="column">
+                        <div class="col">
+                            <div class="club">
+                                <p class="collapsible">Tech Under Twenty Executive</p>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2020 September - 2024 June</p>
+                                    <p class="clubdescrip">I was selected as chapter head for TU20, a regional entrepreneurship club supporting youth innovation. As an executive, I helped host biweekly meetings, provided feedback on students' business pitches, and organized a trip to UTM for the Tech Under Twenty Cup.</p>
+                                </div>
+                            </div>
+                            <div class="club">
+                                <button class="collapsible">Swim Instructor at Goldfish Swim School</button>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2020 September - 2024 June</p>
+                                    <p class="clubdescrip">As a Swim Instructor at Goldfish Swim School, I taught swimming techniques and water safety to students of all ages, created personalized lesson plans, and maintained a positive and safe learning environment.</p>
+                                </div>
+                            </div>
+                            <div class="club">
+                                <button class="collapsible">Volunteer at St. Luke's Anglican Church</button>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2021 September - Present</p>
+                                    <p class="clubdescrip"> I’ve been volunteering at my church as an audio-visual technician, pianist, and a English-Mandarin translator for 400+ hours. I was presented a volunteer certificate by the MPP for Oakville North and Burlington in 2022. I also trained a group of youth on how to operate the audio-visual and live-streaming systems, as I had to leave for university. I still occasionally return to play piano during church when I come home from university!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="club">
+                                <button class="collapsible">Founder of the Clearview Ensemble (nonprofit)</button>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2022 September - 2024 June</p>
+                                    <p class="clubdescrip">During the challenging period of COVID-19, I recognized the need for positivity and connection. I founded the Clearview Ensemble, recruited six other musicians, and organized concerts to bring live music to the community. I helped arrange the concert programs, organized rehearsal sessions and played both piano and violin in the concerts. In addition to providing live music, the ensemble seized the opportunity to raise over $1,100 for SickKids and was deemed SickKids Champions in October 2022.
+</p>
+                                </div>
+                            </div>
+                            <div class="club">
+                                <button class="collapsible">Math Contests</button>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2022 December - 2024 June</p>
+                                    <p class="clubdescrip"></p>
+                                </div>
+                            </div>
+                            <div class="club">
+                                <button class="collapsible">Varsity Football Team starting Defensive Back</button>
+                                <div class="clubcontent">
+                                    <p class="clubdescrip" id="clubtime">2021 September - 2023 November</p>
+                                    <p class="clubdescrip">I played football for three years in high school, as a defensive back. I practiced daily with my team and worked out in the gym in the offseason. I motivated my teammates and contributed play ideas to the defensive playbook. I recorded 4 interceptions and over 40 tackles throughout high school.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>Contact Me</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="linkedin icon"></i> Linkedin</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="github icon"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="instagram icon"></i> Instagram</a
+        >
+        <a href="/cdn-cgi/l/email-protection#aecbd6cfc3dec2cbeecbd6cfc3dec2cb80cdc1c3" class="btn contact-details"><i class="email-icon"></i> Send an email</a
+        >
+        <a href="tel:647-649-9076" class="btn contact-details"
+          ><i class="phone icon"></i> Call me</a
+        >
+      </div>
+    </section>
   </body>
-</html>   
+</html>
